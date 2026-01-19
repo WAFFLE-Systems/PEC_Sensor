@@ -17,23 +17,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 7.62 0)
+			(property "Reference" "U1"
+				(at 3.81 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AD620"
-				(at 5.08 5.08 0)
+			(property "Value" "AD8221"
+				(at 3.81 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -103,7 +103,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,7 +121,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,7 +139,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,7 +157,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,7 +175,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,7 +193,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -211,7 +211,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -229,7 +229,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7181,7 +7181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3988912d-9db3-478b-8836-1d091cef04b2")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 136.2075 156.21 0)
 			(effects
 				(font
@@ -7242,7 +7242,7 @@
 		(instances
 			(project "PEC_Sensor"
 				(path "/66d8febf-d84d-4f79-8cb9-9dcbdb9b3b3f"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7888,7 +7888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
 			(at 161.036 54.356 90)
 			(effects
 				(font
@@ -9079,7 +9079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Arduino_Nano"
+		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
 			(at 79.756 87.376 0)
 			(effects
 				(font
@@ -10252,7 +10252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 175.26 54.61 0)
 			(effects
 				(font
@@ -10291,10 +10291,10 @@
 		(pin "3"
 			(uuid "3df9db7f-6b3b-412c-b310-ecf231a55887")
 		)
-		(pin "7"
+		(pin "4"
 			(uuid "b844e437-00f1-48f1-b75c-9477a9abfe7c")
 		)
-		(pin "4"
+		(pin "7"
 			(uuid "e75b2593-da24-4578-b694-d7cdafd22d8a")
 		)
 		(pin "5"
