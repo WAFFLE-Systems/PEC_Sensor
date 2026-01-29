@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "TC4420")(type "KiCad")(uri "${KIPRJMOD}/Component Library/TC4420EOA/TC4420EOA.kicad_sym")(options "")(descr ""))
-  (lib (name "C14D32P-C3")(type "KiCad")(uri "${KIPRJMOD}/Component Library/C14D32P-C3/C14D32P-C3.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP8266")(type "KiCad")(uri "${KIPRJMOD}/Component Library/ESP8266/ESP8266.kicad_sym")(options "")(descr ""))
 )
