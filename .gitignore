@@ -1,4 +1,5 @@
 .DS_Store
+/fabrication/
 ~PEC_Sensor.kicad_sch.lck
 /PEC_Sensor-backups
 fp*
