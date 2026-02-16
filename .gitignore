@@ -1,5 +1,7 @@
 .DS_Store
 /fabrication/
+fabrication.*
 fp*
 sym*
 /Wheel_Encoder-backups/
+~Wheel_Encoder.*

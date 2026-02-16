@@ -1368,8 +1368,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 123.19 82.804 90)
+		(property "Value" "0.01uF"
+			(at 124.46 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,8 +1437,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 170.18 83.312 90)
+		(property "Value" "0.01uF"
+			(at 171.45 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
