@@ -3548,7 +3548,7 @@
 	)
 	(rectangle
 		(start 20.32 90.17)
-		(end 124.46 143.51)
+		(end 130.81 143.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -6952,7 +6952,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "470Ω"
 			(at 154.94 41.9099 0)
 			(effects
 				(font
