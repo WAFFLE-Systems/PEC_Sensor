@@ -1,32 +1,33 @@
-Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
-"C1,C9,C10,C12,C13",5,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-"C2,C11",2,10uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-C3,1,10uF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
-C4,1,100pF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-"C5,C6",2,22uF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
-C7,1,330nF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-C8,1,1.0uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-C14,1,6.8uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-D1,1,CDBA340L-HF,,,,Diode_SMD:D_SMA_Handsoldering,https://www.vishay.com/docs/88751/ss32.pdf
-D2,1,APT2012LZGCK,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
-D3,1,APT2012LVBC/D,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
-J1,1,Conn_01x02_Pin,,,,Connector_BarrelJack:BarrelJack_Horizontal,~
-"J2,J3",2,Conn_01x15_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical,~
-J4,1,Sensor Coil,,,,Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,~
-J5,1,Driver Coil,,,,Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal,~
-J6,1,Encoder,,,,Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal,~
-L1,1,3.3uH,,,,Inductor_SMD:L_Taiyo-Yuden_NR-40xx,~
-Q1,1,SSM3K336R,,,,Package_TO_SOT_SMD:TSOT-23,https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs
-R1,1,52.3kΩ,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-R2,1,10kΩ,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-"R3,R4",2,10.6kΩ,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-R5,1,100Ω,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-R6,1,470Ω,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-"R7,R8,R9",3,1kΩ,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-"R10,R11",2,100kΩ,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-RG1,1,10k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
-RV1,1,10kΩ,,,,Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical,~
-U1,1,AP62301WU,,,,Package_TO_SOT_SMD:TSOT-23-6,https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
-U2,1,AD8221,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.analog.com/media/en/technical-documentation/data-sheets/AD620.pdf
-U3,1,OPA820,,,,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/tlv172.pdf
-U4,1,TC4420,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011755
+Reference,Quantity,Name,Description,Unit Price,Total,Ratings,Vendor Link,Datasheet
+,1,ESP32,ESP32 Dev board,$9.50 ,$9.50 ,"5V, 250mA",https://www.amazon.ca/ELEGOO-ESP-WROOM-32-Development-Bluetooth-Microcontroller/dp/B0D8T5Z1QD/ref=sr_1_9?crid=1AJ3FXUQ0MLCQ&dib=eyJ2IjoiMSJ9.lW7Jwf4qJMv6bzk-YdeG-Jq3RXy6RyBgMxF5p4T4tXE7BpDRvUkkY5GC3q9GmHOv13dsDC2xsAcVYfPQJIXQU3Qdlrp3bXAB6Aj5MgPS96IAA5onMjIPG7h7x4CfyxLft3fQWZC0z8SaM0vFSX7Xm4efalTGPL4ZGFrFRBQkFW8tlcM8j5t9ycKQouGPp6dzhQo9QZ8R70d-jIia0JVuVEJ4rp7YAdYGa-jakdhq0mv77IblD007P2e4PfFKNGrEBnmbiFKtORT99OwPulhUtzyKC3FB1UukgkwBFtdx4v0.bRpYE5_w64Sb7J_HxL-3s_jGWCIfCG5mix01iKok2kk&dib_tag=se&keywords=esp32&qid=1770684636&sprefix=esp%2Caps%2C209&sr=8-9&th=1,https://wiki.elegoo.com/oshw-getting-started-kits/first-look-esp32
+,1,Battery,12V rechargeable battery,$29.99 ,$29.99 ,"12V, 3000mAh",https://www.amazon.ca/dp/B0DK1JDGXK?ref=ppx_yo2ov_dt_b_fed_asin_title,
+,1,11CEY25F243A,Rotary encoder,$4.07 ,$4.07 ,"5V, 0.5mA",https://www.digikey.ca/en/products/detail/cts-electrocomponents/11CEY25F243A/13153010,https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-11CE-datasheet.pdf
+U2,1,AD8221,Instrumentation amplifier,$11.81 ,$11.81 ,"36V, 0.5nA",https://www.digikey.ca/en/products/detail/analog-devices-inc/AD8221BRZ-R7/996059,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8221.pdf
+U3,1,OPA820,Active filter op amp,$6.11 ,$6.11 ,"5-12V, 5.6mA",https://www.digikey.ca/en/products/detail/texas-instruments/OPA820IDBVR/1572956,https://www.ti.com/lit/ds/symlink/opa820.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1768174577383&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa820
+U4,1,TC4420,IC Driver,$2.77 ,$2.77 ,"18V, 6A",https://www.digikey.ca/en/products/detail/microchip-technology/TC4420EOA/442852,https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/21419D.pdf
+Q1,1,SSM3K336R,NMOSFET,$0.68 ,$0.68 ,4.5V,https://www.digikey.ca/en/products/detail/toshiba-semiconductor-and-storage/SSM3K336R-LF/5409244,https://toshiba.semicon-storage.com/info/SSM3K336R_datasheet_en_20250220.pdf?did=13694&prodName=SSM3K336R
+U1,1,AP62301,Buck converter,$0.55 ,$0.55 ,4.2-12V,https://www.digikey.ca/en/products/detail/diodes-incorporated/AP62301WU-7/12349279,https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
+D1,1,CDBA340L-HF,flyback diode,$1.46 ,$1.46 ,"40V, 3A",https://www.digikey.ca/en/products/detail/comchip-technology/CDBA340L-HF/3308142,https://www.comchiptech.com/upload/2026_01_13/12_20260113085742bhn1130.pdf
+D2,1,APT2012LZGCK,green LED,$0.80 ,$0.80 ,"2.65V, 2mA",https://www.digikey.ca/en/products/detail/kingbright/APT2012LZGCK/5177440,https://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf
+D3,1,APT2012LVBC/D,blue LED,$0.80 ,$0.80 ,"2.65V, 2mA",https://www.digikey.ca/en/products/detail/kingbright/APT2012LVBC-D/5177439,https://www.kingbrightusa.com/images/catalog/SPEC/APT2012LVBC-D.pdf
+RV1,1,TC33X-2,10kOhm potentiometer,$0.38 ,$0.38 ,"10kOhm, 0.15W",https://www.digikey.ca/en/products/detail/bourns-inc/TC33X-2-103E/612858,https://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+L1,1,NRS4018T3R3MDGJ,3.3uH inductor,$0.26 ,$0.26 ,2A,https://www.digikey.ca/en/products/detail/taiyo-yuden/NRS4018T3R3MDGJ/2648970,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/610/NRS4018T3R3MDGJ_SS.pdf
+two from board 2,2,,0.01uF Cap,$0.02 ,$0.04 ,0.01uF,,
+"C1,C9,C10,C12,C13",5,,0.1uF Cap,$0.02 ,$0.08 ,0.1uF,,
+C8,1,,1.0uF Cap,$0.05 ,$0.05 ,1.0uF,,
+"C2,C11",2,,"10uF Cap, 0603",$0.15 ,$0.30 ,10uF,,
+C3,1,,10uF Cap 0805,$0.32 ,$0.32 ,10uF,,
+C14,1,,6.8uF Cap,$0.84 ,$0.84 ,6.8uF,,
+"C5,C6",2,,22uF Cap,$0.38 ,$0.76 ,22uF,,
+C4,1,,0.1nF Cap,$0.02 ,$0.02 ,0.1nF,,
+C7,1,,330nF Cap,$0.32 ,$0.32 ,330nF,,
+"R5,R7,R8,R9",4,,1kΩ Res,$0.01 ,$0.04 ,1kΩ,,
+"R2,R6,four board 2",6,,10kΩ Res,$0.01 ,$0.05 ,10kΩ,,
+"R10,R11",2,,100kΩ Res,$0.00 ,$0.00 ,100kΩ,,
+"R3,R4",2,,10.6kΩ Res,$0.18 ,$0.36 ,10.6kΩ,,
+R1,1,,52.3kΩ Res,$0.01 ,$0.01 ,52.3kΩ,,
+RG1,1,,470Ω Res,$0.01 ,$0.01 ,470Ω,,
+"J1(board 2),J6",2,S4B-EH,JST EH 1x4 pin,$0.19 ,$0.38 ,,https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S4B-EH/926535,https://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+"J4,J5",2,S2B-EH,JST EH 1x2 pin,$0.16 ,$0.32 ,,https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S2B-EH/926533,https://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+"J2,H3",2,Header pin,Female Header 1x15 pin,$0.55 ,$1.10 ,,,
+J1,1,PJ-102A,Power jack,$0.88 ,$0.88 ,,https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/PJ-102A/275425,https://www.sameskydevices.com/product/resource/pj-102a.pdf
